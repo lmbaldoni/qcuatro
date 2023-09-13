@@ -1,6 +1,7 @@
 {
   "hosting": {
-    "public": "public",
+    "site": "qcuatrofinance",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",
