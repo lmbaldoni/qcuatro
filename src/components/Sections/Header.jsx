@@ -14,12 +14,13 @@ export default function Header() {
         <div>
           <h1 className="extraBold font60">We are Digital Agency.</h1>
           <HeaderP className="font13 semiBold">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-            voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+          QCUATRO es un proveedor confiable de soluciones OFSAA con más de 25 años de
+experiencia en el campo de la control de gestión financiero. Ofrecemos soluciones integrales
+ en gestión de riesgos para la industria de servicios financieros.
           </HeaderP>
-          <BtnWrapper>
+          {/* <BtnWrapper>
             <FullButton title="Get Started" />
-          </BtnWrapper>
+          </BtnWrapper> */}
         </div>
       </LeftSide>
       <RightSide>

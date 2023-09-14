@@ -21,11 +21,15 @@ export default function Services() {
       <div className="whiteBg" style={{ padding: "60px 0" }}>
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Our Awesome Services</h1>
+            <h1 className="font40 extraBold">Servicios Financieros</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+            OFSAA (Aplicaciones analíticas de servicios financieros de Oracle) 
+            es un conjunto de aplicaciones analíticas bancarias integradas 
+            <br />
+            para Enterprise Performance Management (EPM),
+            
+             que le ayuda a cumplir sus objetivos de rendimiento ajustados al riesgo.
+              
             </p>
           </HeaderInfo>
           <ServiceBoxRow className="flex">

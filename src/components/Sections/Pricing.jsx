@@ -9,7 +9,7 @@ export default function Pricing() {
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Check Our Pricing</h1>
+            <h1 className="font40 extraBold">Ventajas principales</h1>
             <p className="font13">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
               <br />
@@ -20,54 +20,86 @@ export default function Pricing() {
             <TableBox>
               <PricingTable
                 icon="roller"
-                price="$29,99/mo"
-                title="Starter"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                offers={[
-                  { name: "Product Offer", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "Product Offer #2", cheked: false },
-                  { name: "Product", cheked: false },
-                  { name: "Product Offer", cheked: false },
-                ]}
-                action={() => alert("clicked")}
+                price=""
+                title="Expertos en OFSAA"
+                text="Trabaje con un equipo de expertos de OFSAA que organizarán una transferencia de conocimientos detallada para usted."
+                
               />
             </TableBox>
             <TableBox>
               <PricingTable
                 icon="monitor"
-                price="$49,99/mo"
-                title="Basic"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                offers={[
-                  { name: "Product Offer", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "Product Offer #2", cheked: true },
-                  { name: "Product", cheked: true },
-                  { name: "Product Offer", cheked: false },
-                ]}
-                action={() => alert("clicked")}
+                price=""
+                title="Soluciones sin código"
+                text="Implementar OFSAA utilizando funcionalidades estándar, lo que permite a los usuarios comerciales mantener los supuestos de OFSAA sin necesidad de codificación de TI (o limitada)."
               />
             </TableBox>
             <TableBox>
               <PricingTable
                 icon="browser"
-                price="$59,99/mo"
-                title="Golden"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                offers={[
-                  { name: "Product Offer", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "Product Offer #2", cheked: true },
-                  { name: "Product", cheked: true },
-                  { name: "Product Offer", cheked: true },
-                ]}
-                action={() => alert("clicked")}
+                price=""
+                title="Mejores decisiones"
+                text="Mejore las decisiones de gestión determinando las tasas de precios de transferencia utilizando un enfoque de vencimiento igualado."
+               
+              />
+            </TableBox>
+            
+          </TablesWrapper>
+        
+          <TablesWrapper className="flexSpaceNull">
+          <TableBox>
+              <PricingTable
+                icon="monitor"
+                price=""
+                title="Soluciones sin código"
+                text="Implementar OFSAA utilizando funcionalidades estándar, lo que permite a los usuarios comerciales mantener los supuestos de OFSAA sin necesidad de codificación de TI (o limitada)."
+              />
+            </TableBox>
+            <TableBox>
+              <PricingTable
+                icon="monitor"
+                price=""
+                title="Soluciones sin código"
+                text="Implementar OFSAA utilizando funcionalidades estándar, lo que permite a los usuarios comerciales mantener los supuestos de OFSAA sin necesidad de codificación de TI (o limitada)."
+              />
+            </TableBox>
+            <TableBox>
+              <PricingTable
+                icon="monitor"
+                price=""
+                title="Soluciones sin código"
+                text="Implementar OFSAA utilizando funcionalidades estándar, lo que permite a los usuarios comerciales mantener los supuestos de OFSAA sin necesidad de codificación de TI (o limitada)."
+              />
+            </TableBox>
+          </TablesWrapper>
+          <TablesWrapper className="flexSpaceNull">
+          <TableBox>
+              <PricingTable
+                icon="monitor"
+                price=""
+                title="Soluciones sin código"
+                text="Implementar OFSAA utilizando funcionalidades estándar, lo que permite a los usuarios comerciales mantener los supuestos de OFSAA sin necesidad de codificación de TI (o limitada)."
+              />
+            </TableBox>
+            <TableBox>
+              <PricingTable
+                icon="monitor"
+                price=""
+                title="Soluciones sin código"
+                text="Implementar OFSAA utilizando funcionalidades estándar, lo que permite a los usuarios comerciales mantener los supuestos de OFSAA sin necesidad de codificación de TI (o limitada)."
+              />
+            </TableBox>
+            <TableBox>
+              <PricingTable
+                icon="monitor"
+                price=""
+                title="Soluciones sin código"
+                text="Implementar OFSAA utilizando funcionalidades estándar, lo que permite a los usuarios comerciales mantener los supuestos de OFSAA sin necesidad de codificación de TI (o limitada)."
               />
             </TableBox>
           </TablesWrapper>
         </div>
-      </div>
+        </div>
     </Wrapper>
   );
 }

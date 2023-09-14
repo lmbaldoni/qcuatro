@@ -29,7 +29,7 @@ export default function TopNavbar() {
           <Link className="pointer flexNullCenter" to="home" smooth={true}>
             <LogoIcon />
             <h1 style={{ marginLeft: "15px" }} className="font20 extraBold">
-              fanatic
+              QCUATRO
             </h1>
           </Link>
           <BurderWrapper className="pointer" onClick={() => toggleSidebar(!sidebarOpen)}>
@@ -43,12 +43,12 @@ export default function TopNavbar() {
             </li>
             <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="services" spy={true} smooth={true} offset={-80}>
-                Services
+                Servicios
               </Link>
             </li>
             <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="projects" spy={true} smooth={true} offset={-80}>
-                Projects
+                Proyectos
               </Link>
             </li>
             <li className="semiBold font15 pointer">
@@ -63,11 +63,11 @@ export default function TopNavbar() {
             </li>
             <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="contact" spy={true} smooth={true} offset={-80}>
-                Contact
+                Contacto
               </Link>
             </li>
           </UlWrapper>
-          <UlWrapperRight className="flexNullCenter">
+          {/* <UlWrapperRight className="flexNullCenter">
             <li className="semiBold font15 pointer">
               <a href="/" style={{ padding: "10px 30px 10px 0" }}>
                 Log in
@@ -78,7 +78,7 @@ export default function TopNavbar() {
                 Get Started
               </a>
             </li>
-          </UlWrapperRight>
+          </UlWrapperRight> */}
         </NavInner>
       </Wrapper>
     </>
