@@ -27,14 +27,14 @@ experiencia en el campo de la control de gestión financiero. Ofrecemos solucion
         <ImageWrapper>
           <Img className="radius8" src={HeaderImage} alt="office" style={{zIndex: 9}} />
           <QuoteWrapper className="flexCenter darkBg radius8">
-            <QuotesWrapper>
+            {/* <QuotesWrapper>
               <QuotesIcon />
-            </QuotesWrapper>
+            </QuotesWrapper> */}
             <div>
               <p className="font15 whiteColor">
-                <em>Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it.</em>
+                <em>Ofrecer soluciones comerciales innovadoras e integradas que simplifiquen la gestión de crédito para las organizaciones financieras, utilizando nuestra profunda experiencia, agilidad y creatividad en la industria.</em>
               </p>
-              <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Ralph Waldo Emerson</p>
+              <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Nuestra misión</p>
             </div>
           </QuoteWrapper>
           <DotsWrapper>

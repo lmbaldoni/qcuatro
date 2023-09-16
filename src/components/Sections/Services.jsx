@@ -26,36 +26,65 @@ export default function Services() {
             OFSAA (Aplicaciones analíticas de servicios financieros de Oracle) 
             es un conjunto de aplicaciones analíticas bancarias integradas 
             <br />
-            para Enterprise Performance Management (EPM),
-            
-             que le ayuda a cumplir sus objetivos de rendimiento ajustados al riesgo.
-              
+             para Enterprise Performance Management (EPM), que le ayuda a cumplir sus objetivos de rendimiento ajustados al riesgo.
             </p>
           </HeaderInfo>
           <ServiceBoxRow className="flex">
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="roller"
-                title="Graphic Design"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+                title="Implementación"
+                subtitle="Implementar módulos OFSAA (Aplicaciones analíticas de servicios financieros de Oracle) para precios de transferencia de fondos (FTP) y rentabilidad."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="monitor"
                 title="Web Design"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
+                subtitle="Gestión (PFT), Gestión de Activos y Pasivos (ALM), junto con informes predefinidos o personalizados utilizando OBI (Oracle Business Intelligence)."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="browser"
                 title="Development"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+                subtitle="Involucrar a consultores de OFSAA con conocimientos y experiencia, con varios proyectos exitosos ejecutados en todo el mundo."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
-              <ServiceBox icon="printer" title="Print" subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor." />
+              <ServiceBox 
+                icon="printer" 
+                title="Print" 
+                subtitle="Recopile todos sus requisitos comerciales y de TI para la solución OFSAA, analizándolos con las funcionalidades estándar del software OFSAA." />
+            </ServiceBoxWrapper>
+          </ServiceBoxRow>
+          <ServiceBoxRow className="flex">
+            <ServiceBoxWrapper>
+              <ServiceBox
+                icon="roller"
+                title="Implementación"
+                subtitle="Ofrecer orientación y experiencia en la definición de supuestos de rentabilidad, FTP y ALM, utilizando las mejores prácticas de la industria."
+              />
+            </ServiceBoxWrapper>
+            <ServiceBoxWrapper>
+              <ServiceBox
+                icon="monitor"
+                title="Web Design"
+                subtitle="Ajuste los supuestos de OFSAA para obtener una experiencia óptima de procesamiento y presentación de informes para los usuarios."
+              />
+            </ServiceBoxWrapper>
+            <ServiceBoxWrapper>
+              <ServiceBox
+                icon="browser"
+                title="Development"
+                subtitle="Sugerir mejores prácticas para el mantenimiento de OFSAA durante la operación de Producción."
+              />
+            </ServiceBoxWrapper>
+            <ServiceBoxWrapper>
+              <ServiceBox 
+                icon="printer" 
+                title="Print" 
+                subtitle="Entregue una guía de operación OFSAA completa, adaptada exactamente a la solución OFSAA implementada para usted." />
             </ServiceBoxWrapper>
           </ServiceBoxRow>
         </div>

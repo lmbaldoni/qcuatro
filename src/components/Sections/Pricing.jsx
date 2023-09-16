@@ -10,11 +10,11 @@ export default function Pricing() {
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">Ventajas principales</h1>
-            <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+            {/* <p className="font13">
+              Lorem ipadsdasum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
               <br />
               labore et dolore magna aliquyam erat, sed diam voluptua.
-            </p>
+            </p> */}
           </HeaderInfo>
           <TablesWrapper className="flexSpaceNull">
             <TableBox>
@@ -51,24 +51,24 @@ export default function Pricing() {
               <PricingTable
                 icon="monitor"
                 price=""
-                title="Soluciones sin código"
-                text="Implementar OFSAA utilizando funcionalidades estándar, lo que permite a los usuarios comerciales mantener los supuestos de OFSAA sin necesidad de codificación de TI (o limitada)."
+                title="Ganancia"
+                text="Comprender de dónde provienen las ganancias al difundir los ingresos netos por intereses por costo de los fondos/valor de las fuentes."
               />
             </TableBox>
             <TableBox>
               <PricingTable
                 icon="monitor"
                 price=""
-                title="Soluciones sin código"
-                text="Implementar OFSAA utilizando funcionalidades estándar, lo que permite a los usuarios comerciales mantener los supuestos de OFSAA sin necesidad de codificación de TI (o limitada)."
+                title="Optimización de riesgos"
+                text="Gestionar el riesgo de interés y liquidez aislándolos a nivel central."
               />
             </TableBox>
             <TableBox>
               <PricingTable
                 icon="monitor"
                 price=""
-                title="Soluciones sin código"
-                text="Implementar OFSAA utilizando funcionalidades estándar, lo que permite a los usuarios comerciales mantener los supuestos de OFSAA sin necesidad de codificación de TI (o limitada)."
+                title="Implementar"
+                text="Implementar varios modelos en los que los costos puedan reconocerse en varios niveles dentro del Banco (productos, clientes, etc.), utilizando un enfoque top/down, bottom/up o mixto."
               />
             </TableBox>
           </TablesWrapper>
@@ -77,24 +77,24 @@ export default function Pricing() {
               <PricingTable
                 icon="monitor"
                 price=""
-                title="Soluciones sin código"
-                text="Implementar OFSAA utilizando funcionalidades estándar, lo que permite a los usuarios comerciales mantener los supuestos de OFSAA sin necesidad de codificación de TI (o limitada)."
+                title="Eficiencia"
+                text="Afronte los desafíos de la industria bancaria actual al tener una imagen precisa de las ganancias divididas entre cartera, regiones o línea de negocio."
               />
             </TableBox>
             <TableBox>
               <PricingTable
                 icon="monitor"
                 price=""
-                title="Soluciones sin código"
-                text="Implementar OFSAA utilizando funcionalidades estándar, lo que permite a los usuarios comerciales mantener los supuestos de OFSAA sin necesidad de codificación de TI (o limitada)."
+                title="Modelado"
+                text="Indicadores ALM del proyecto que utilizan modelos de horizonte temporal flexible y múltiples escenarios de supuestos."
               />
             </TableBox>
             <TableBox>
               <PricingTable
                 icon="monitor"
                 price=""
-                title="Soluciones sin código"
-                text="Implementar OFSAA utilizando funcionalidades estándar, lo que permite a los usuarios comerciales mantener los supuestos de OFSAA sin necesidad de codificación de TI (o limitada)."
+                title="Manejo de datos"
+                text="Generar una variedad de indicadores de riesgo financiero proyectados: como brechas de liquidez, brechas de tasas de interés para negocios actuales y nuevos."
               />
             </TableBox>
           </TablesWrapper>
