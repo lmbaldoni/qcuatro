@@ -21,7 +21,7 @@ export default function Services() {
       <div className="whiteBg" style={{ padding: "60px 0" }}>
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Servicios Financieros</h1>
+            <h1 className="font40 extraBold">Servicios implementación</h1>
             <p className="font13">
             OFSAA (Aplicaciones analíticas de servicios financieros de Oracle) 
             es un conjunto de aplicaciones analíticas bancarias integradas 
@@ -88,7 +88,7 @@ export default function Services() {
             </ServiceBoxWrapper>
           </ServiceBoxRow>
         </div>
-        <div className="lightBg">
+        {/* <div className="lightBg">
           <div className="container">
             <Advertising className="flexSpaceCenter">
               <AddLeft>
@@ -129,7 +129,7 @@ export default function Services() {
               </AddRight>
             </Advertising>
           </div>
-        </div>
+        </div> */}
       </div>
     </Wrapper>
   );

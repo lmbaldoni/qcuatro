@@ -33,7 +33,7 @@ export default function TestimonialSlider() {
       <Slider {...settings}>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
+            text="Módulo de precios de transferencia de fondos (FTP) de Oracle Financial Services."
             author="Ralph Waldo Emerson"
           />
         </LogoWrapper>

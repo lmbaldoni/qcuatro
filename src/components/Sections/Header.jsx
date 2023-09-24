@@ -12,7 +12,7 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font60">We are Digital Agency.</h1>
+          <h1 className="extraBold font60">Soluciones para el riesgo y finanzas</h1>
           <HeaderP className="font13 semiBold">
           QCUATRO es un proveedor confiable de soluciones OFSAA con más de 25 años de
 experiencia en el campo de la control de gestión financiero. Ofrecemos soluciones integrales

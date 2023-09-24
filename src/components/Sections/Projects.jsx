@@ -17,8 +17,11 @@ export default function Projects() {
     <Wrapper id="projects">
       <div className="whiteBg">
         <div className="container">
+        <br />
+        <br />
+        <br />
           <HeaderInfo>
-            <h1 className="font40 extraBold">Nuestros proyectos</h1>
+            <h1 className="font40 extraBold">Servicios SaaS Oracle</h1>
             <p className="font13">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
               <br />
