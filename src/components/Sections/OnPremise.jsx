@@ -87,7 +87,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div className="lightBg">
+      {/* <div className="lightBg">
         <div className="container">
           <Advertising className="flexSpaceCenter">
             <AddLeft>
@@ -98,7 +98,7 @@ export default function Projects() {
               </AddLeftInner>
             </AddLeft>
             <AddRight>
-              <h4 className="font15 semiBold">A few words about company</h4>
+              <h4 className="font15 semiBold">¿Cómo satisfacen sus necesidades nuestras aplicaciones OFSAA?</h4>
               <h2 className="font40 extraBold">A Study of Creativity</h2>
               <p className="font12">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
@@ -115,7 +115,7 @@ export default function Projects() {
             </AddRight>
           </Advertising>
         </div>
-      </div>
+      </div> */}
     </Wrapper>
   );
 }

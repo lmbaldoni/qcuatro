@@ -8,7 +8,8 @@ import SaaS from "../components/Sections/SaaS";
 import OmPremise from "../components/Sections/OnPremise";
 import Blog from "../components/Sections/Blog";
 import Certificados from "../components/Sections/Certificados";
-import Pricing from "../components/Sections/Pricing";
+// import Pricing from "../components/Sections/Pricing";
+import VentajasOFSAA from "../components/Sections/VentajasOFSAA";
 import Contact from "../components/Sections/Contact";
 import Footer from "../components/Sections/Footer"
 
@@ -22,7 +23,8 @@ export default function Landing() {
       <SaaS />
       <OmPremise />
       <Blog />
-      <Pricing />
+      {/* <Pricing /> */}
+      <VentajasOFSAA />
       <Contact />
       <Footer />
     </>

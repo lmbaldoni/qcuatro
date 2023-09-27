@@ -4,11 +4,12 @@ import styled from "styled-components";
 import BlogBox from "../Elements/BlogBox";
 import FullButton from "../Buttons/FullButton";
 import TestimonialSlider from "../Elements/TestimonialSlider";
+import TestimonialSlider_linea2 from "../Elements/TestimonialSlider_linea2";
 
 export default function Blog() {
   return (
     <Wrapper id="blog">
-      <div className="whiteBg">
+      {/* <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">Our Blog Stories</h1>
@@ -82,11 +83,11 @@ export default function Blog() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="lightBg" style={{padding: '50px 0'}}>
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">What They Say?</h1>
+            <h1 className="font40 extraBold">¿Cómo satisfacen sus necesidades nuestras aplicaciones OFSAA?</h1>
             <p className="font13">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
               <br />
@@ -94,6 +95,7 @@ export default function Blog() {
             </p>
           </HeaderInfo>
           <TestimonialSlider />
+          <TestimonialSlider_linea2 />
         </div>
       </div>
     </Wrapper>
