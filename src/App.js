@@ -3,6 +3,9 @@ import { Helmet } from "react-helmet";
 // Screens
 import Landing from "./screens/Landing.jsx";
 
+//iconos
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 export default function App() {
   return (
     <>

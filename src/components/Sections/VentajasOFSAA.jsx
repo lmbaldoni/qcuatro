@@ -3,6 +3,9 @@ import styled from "styled-components";
 // Components
 import PricingTable from "../Elements/PricingTable";
 
+import { faBell } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 export default function Pricing() {
   return (
     <Wrapper id="pricing">
@@ -18,6 +21,7 @@ export default function Pricing() {
           </HeaderInfo>
           <TablesWrapper className="flexSpaceNull">
             <TableBox>
+            <FontAwesomeIcon> icon={faBell}</FontAwesomeIcon>
               <PricingTable
                 icon="roller"
                 price=""
@@ -25,10 +29,11 @@ export default function Pricing() {
                 text="Trabaje con un equipo de expertos de OFSAA que organizarán una transferencia de conocimientos detallada para usted."
                 
               />
+              
             </TableBox>
             <TableBox>
               <PricingTable
-                icon="monitor"
+                icon="faBottleDroplet"
                 price=""
                 title="Soluciones sin código"
                 text="Implementar OFSAA utilizando funcionalidades estándar, lo que permite a los usuarios comerciales mantener los supuestos de OFSAA sin necesidad de codificación de TI (o limitada)."
@@ -49,7 +54,7 @@ export default function Pricing() {
           <TablesWrapper className="flexSpaceNull">
           <TableBox>
               <PricingTable
-                icon="monitor"
+                icon="perfaImagePortrait"
                 price=""
                 title="Ganancia"
                 text="Comprender de dónde provienen las ganancias al difundir los ingresos netos por intereses por costo de los fondos/valor de las fuentes."

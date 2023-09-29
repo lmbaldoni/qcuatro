@@ -5,6 +5,8 @@ import RollerIcon from "../../assets/svg/Services/RollerIcon";
 import MonitorIcon from "../../assets/svg/Services/MonitorIcon";
 import BrowserIcon from "../../assets/svg/Services/BrowserIcon";
 import PrinterIcon from "../../assets/svg/Services/PrinterIcon";
+import { faImagePortrait } from "@fortawesome/free-solid-svg-icons";
+
 
 export default function ServiceBox({icon, title, subtitle}) {
   let getIcon;
@@ -22,6 +24,8 @@ export default function ServiceBox({icon, title, subtitle}) {
     case "printer":
       getIcon = <PrinterIcon />;
       break;
+    case "persona":
+      getIcon=faImagePortrait;
     default:
       getIcon = <RollerIcon />;
       break;

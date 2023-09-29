@@ -33,28 +33,28 @@ export default function Services() {
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="roller"
-                title="Implementación"
+                title="Implementación FTP"
                 subtitle="Implementar módulos OFSAA (Aplicaciones analíticas de servicios financieros de Oracle) para precios de transferencia de fondos (FTP) y rentabilidad."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="monitor"
-                title="Web Design"
+                title="Implementación PFT & ALM"
                 subtitle="Gestión (PFT), Gestión de Activos y Pasivos (ALM), junto con informes predefinidos o personalizados utilizando OBI (Oracle Business Intelligence)."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="browser"
-                title="Development"
+                title="Consultoría en OFSAA"
                 subtitle="Involucrar a consultores de OFSAA con conocimientos y experiencia, con varios proyectos exitosos ejecutados en todo el mundo."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox 
                 icon="printer" 
-                title="Print" 
+                title="Integración" 
                 subtitle="Recopile todos sus requisitos comerciales y de TI para la solución OFSAA, analizándolos con las funcionalidades estándar del software OFSAA." />
             </ServiceBoxWrapper>
           </ServiceBoxRow>
@@ -62,28 +62,28 @@ export default function Services() {
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="roller"
-                title="Implementación"
+                title="Buenas prácticas"
                 subtitle="Ofrecer orientación y experiencia en la definición de supuestos de rentabilidad, FTP y ALM, utilizando las mejores prácticas de la industria."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="monitor"
-                title="Web Design"
+                title="Focalizado en el usuario"
                 subtitle="Ajuste los supuestos de OFSAA para obtener una experiencia óptima de procesamiento y presentación de informes para los usuarios."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="browser"
-                title="Development"
+                icon="BsPersonFillGear"
+                title="Automatizaciones"
                 subtitle="Sugerir mejores prácticas para el mantenimiento de OFSAA durante la operación de Producción."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox 
                 icon="printer" 
-                title="Print" 
+                title="Capacitación a usuarios" 
                 subtitle="Entregue una guía de operación OFSAA completa, adaptada exactamente a la solución OFSAA implementada para usted." />
             </ServiceBoxWrapper>
           </ServiceBoxRow>

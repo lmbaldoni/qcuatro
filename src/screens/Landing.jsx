@@ -19,9 +19,9 @@ export default function Landing() {
       <TopNavbar />
       <Header />
       <Services />
-      <Certificados />
-      <SaaS />
-      <OmPremise />
+      {/* <Certificados /> */}
+      {/* <SaaS />
+      <OmPremise /> */}
       <Blog />
       {/* <Pricing /> */}
       <VentajasOFSAA />
