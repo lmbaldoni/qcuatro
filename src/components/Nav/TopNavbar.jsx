@@ -42,23 +42,23 @@ export default function TopNavbar() {
               </Link>
             </li>
             <li className="semiBold font15 pointer">
+              <Link activeClass="active" style={{ padding: "10px 15px" }} to="clientes" spy={true} smooth={true} offset={-80}>
+                Clientes
+              </Link>
+            </li>
+            <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="services" spy={true} smooth={true} offset={-80}>
                 Servicios
               </Link>
             </li>
             <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="projects" spy={true} smooth={true} offset={-80}>
-                Proyectos
-              </Link>
-            </li>
-            <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="blog" spy={true} smooth={true} offset={-80}>
-                Blog
+                OFSAA
               </Link>
             </li>
             <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="pricing" spy={true} smooth={true} offset={-80}>
-                Pricing
+                Ventajas
               </Link>
             </li>
             <li className="semiBold font15 pointer">

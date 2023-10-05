@@ -12,12 +12,14 @@ import Certificados from "../components/Sections/Certificados";
 import VentajasOFSAA from "../components/Sections/VentajasOFSAA";
 import Contact from "../components/Sections/Contact";
 import Footer from "../components/Sections/Footer"
+import Clientes from "../components/Sections/Clientes";
 
 export default function Landing() {
   return (
     <>
       <TopNavbar />
       <Header />
+      <Clientes />
       <Services />
       {/* <Certificados /> */}
       {/* <SaaS />

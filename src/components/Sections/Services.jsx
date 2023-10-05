@@ -10,14 +10,17 @@ import AddImage2 from "../../assets/img/add/2.png";
 import AddImage3 from "../../assets/img/add/3.png";
 import AddImage4 from "../../assets/img/add/4.png";
 
+//
+import { FaHeart  } from "react-icons/fa";
+
 export default function Services() {
   return (
     <Wrapper id="services">
-      <div className="lightBg" style={{ padding: "50px 0" }}>
+      {/* <div className="lightBg" style={{ padding: "50px 0" }}>
         <div className="container">
           <ClientSlider />
         </div>
-      </div>
+      </div> */}
       <div className="whiteBg" style={{ padding: "60px 0" }}>
         <div className="container">
           <HeaderInfo>
