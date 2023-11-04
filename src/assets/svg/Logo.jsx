@@ -1,4 +1,5 @@
 import * as React from "react";
+import Logo1 from "../../assets/img/q4-logos_transparent.png";
 
 function SvgComponent(props) {
   return (
@@ -10,6 +11,7 @@ function SvgComponent(props) {
         <rect data-name="Rectangle 12" width={8} height={8} rx={4} transform="translate(375 29)" fill="#f40051" />
       </g>
     </svg>
+    // <Img className="radius8" src={Logo1} alt="office" style={{zIndex: 9}} />
   );
 }
 

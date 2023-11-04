@@ -7,6 +7,7 @@ import Backdrop from "../Elements/Backdrop";
 // Assets
 import LogoIcon from "../../assets/svg/Logo";
 import BurgerIcon from "../../assets/svg/BurgerIcon";
+import Logo1 from "../../assets/img/q4-logos_transparent.png";
 
 export default function TopNavbar() {
   const [y, setY] = useState(window.scrollY);
@@ -27,9 +28,13 @@ export default function TopNavbar() {
       <Wrapper className="flexCenter animate whiteBg" style={y > 100 ? { height: "60px" } : { height: "80px" }}>
         <NavInner className="container flexSpaceCenter">
           <Link className="pointer flexNullCenter" to="home" smooth={true}>
-            <LogoIcon />
+            {/* <LogoIcon /> */}
+           
+
+            <img className="radius2" src={Logo1} alt="office" style={{zIndex: 1}} />
+           
             <h1 style={{ marginLeft: "15px" }} className="font20 extraBold">
-              QCUATRO
+              {/* QCUATRO */}
             </h1>
           </Link>
           <BurderWrapper className="pointer" onClick={() => toggleSidebar(!sidebarOpen)}>
