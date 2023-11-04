@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "qcuatro"
-  }
+    "default": "qcuatro-6dd95",
+    "qcuatro": "qcuatro-6dd95"
+  },
+  "targets": {},
+  "etags": {}
 }
