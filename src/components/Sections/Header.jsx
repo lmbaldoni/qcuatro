@@ -12,11 +12,9 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font60">Soluciones para el riesgo financiero</h1>
+          <h1 className="extraBold font40">Soluciones Analíticas  <br /> para los Servicios Financieros</h1>
           <HeaderP className="font13 semiBold">
-          QCUATRO es un proveedor confiable de soluciones OFSAA con más de 25 años de
-experiencia en el campo de la control de gestión financiero. Ofrecemos soluciones integrales
- en gestión de riesgos para la industria de servicios financieros.
+          QCUATRO es una consultora que posee más de 25 años de experiencia en la implementación y actualización de soluciones analíticas de Oracle para las empresas proveedoras de servicios financieros.
           </HeaderP>
           {/* <BtnWrapper>
             <FullButton title="Get Started" />
@@ -32,7 +30,7 @@ experiencia en el campo de la control de gestión financiero. Ofrecemos solucion
             </QuotesWrapper> */}
             <div>
               <p className="font15 whiteColor">
-                <em>Ofrecer soluciones comerciales innovadoras e integradas que simplifiquen la gestión de crédito para las organizaciones financieras, utilizando nuestra profunda experiencia, agilidad y creatividad en la industria.</em>
+                <em>Ofrecer soluciones analíticas innovadoras e integradas que simplifiquen la gestión de Finanzas, Tesorería, Riesgos y Cumplimiento para las organizaciones financieras, utilizando nuestra profunda experiencia, agilidad y creatividad en la industria.</em>
               </p>
               <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Nuestra misión</p>
             </div>

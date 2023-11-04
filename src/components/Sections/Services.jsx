@@ -24,41 +24,42 @@ export default function Services() {
       <div className="whiteBg" style={{ padding: "60px 0" }}>
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Servicios implementación</h1>
+            <h1 className="font40 extraBold">Servicios</h1>
             <p className="font13">
-            OFSAA (Aplicaciones analíticas de servicios financieros de Oracle) 
-            es un conjunto de aplicaciones analíticas bancarias integradas 
-            <br />
-             para Enterprise Performance Management (EPM), que le ayuda a cumplir sus objetivos de rendimiento ajustados al riesgo.
+              Despliegue e implementación de Aplicaciones analíticas de servicios financieros de Oracle para las áreas de Finanzas, Riesgos y Cumplimiento tanto tanto en modalidad on premise (OFSAA) como en su alternativa SaaS (PBSMCS).
+              
+              Migraciones y actualizaciones de OFSAA a sus versiones actuales y a los servicios de solución en la nube (SaaS).
+              
+              Actualización y ampliación de las soluciones implementadas acorde a los nuevos y cambiantes requerimientos del negocio.
             </p>
           </HeaderInfo>
           <ServiceBoxRow className="flex">
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="roller"
-                title="Implementación FTP"
-                subtitle="Implementar módulos OFSAA (Aplicaciones analíticas de servicios financieros de Oracle) para precios de transferencia de fondos (FTP) y rentabilidad."
+                title="Precios de Transferencia"
+                subtitle="Implementación de una solución que obtiene las tasas y precios de transferencia, así como sus ajustes adicionales, el costo de la opcionalidad embebida, y el costo de las reupturas comerciales. Todas estas medidas a nivel de contrato, para integrarlas en el modelo de rentabilidad."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="monitor"
-                title="Implementación PFT & ALM"
-                subtitle="Gestión (PFT), Gestión de Activos y Pasivos (ALM), junto con informes predefinidos o personalizados utilizando OBI (Oracle Business Intelligence)."
+                title="Rentabilidad"
+                subtitle="Implementación de una solución que obtiene el rendimiento (PnL) a nivel de operación, pudiendo integrarse a niveles de Producto, Unidad de Negocios, Línea de Servicios, Segmentos, Canales y todas las dimensiones del negocio. Una visión completa de la rentabilidad de los clientes, sus segmentos y los ejecutivos comerciales."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="browser"
-                title="Consultoría en OFSAA"
-                subtitle="Involucrar a consultores de OFSAA con conocimientos y experiencia, con varios proyectos exitosos ejecutados en todo el mundo."
+                title="Gestión de Activos y Pasivos"
+                subtitle="Implementación de una solución de Gestión de Activos y Pasivos (ALM), para abordar las perspectivas de negocio y regulatorias de las proyecciones del balance, el estado de resultados e informes de brechas para el cálculo del riesgo de tasa en la cartera bancaria (IRRBB)."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox 
                 icon="printer" 
-                title="Integración" 
-                subtitle="Recopile todos sus requisitos comerciales y de TI para la solución OFSAA, analizándolos con las funcionalidades estándar del software OFSAA." />
+                title="Implementación de Planeación del Balance" 
+                subtitle="Integre las proyecciones de las cuentas del balance y del estado de resultados en la planeación. Obtenga escenarios de proyección para la gestión del rendimiento y la elaboración de los presupuestos financieros integrando las metodologías de precios de transferencia existentes en la solución de FTP." />
             </ServiceBoxWrapper>
           </ServiceBoxRow>
           <ServiceBoxRow className="flex">
@@ -66,28 +67,28 @@ export default function Services() {
               <ServiceBox
                 icon="roller"
                 title="Buenas prácticas"
-                subtitle="Ofrecer orientación y experiencia en la definición de supuestos de rentabilidad, FTP y ALM, utilizando las mejores prácticas de la industria."
+                subtitle="Orientación y experiencia en la definición de supuestos de rentabilidad, Precios de Transferencia (FTP), Rentabilidad (PFT), Gestión de Activos y Pasivos (ALM) y Planeación del Balance (BSP) utilizando las mejores prácticas de la industria."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="monitor"
                 title="Focalizado en el usuario"
-                subtitle="Ajuste los supuestos de OFSAA para obtener una experiencia óptima de procesamiento y presentación de informes para los usuarios."
+                subtitle="Refleje los requerimintos del negocio en las soluciones OFSAA (in premise) y PBSMCS (SaaS) para obtener una experiencia analítica y presentación de informes para usuarios analíticos y gerenciales."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="BsPersonFillGear"
                 title="Automatizaciones"
-                subtitle="Sugerir mejores prácticas para el mantenimiento de OFSAA durante la operación de Producción."
+                subtitle="Utilización de mejores prácticas para el mantenimiento y evolución de su solución analítica durante la operación de Producción."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox 
                 icon="printer" 
                 title="Capacitación a usuarios" 
-                subtitle="Entregue una guía de operación OFSAA completa, adaptada exactamente a la solución OFSAA implementada para usted." />
+                subtitle="Obtenga una guía de operación de su solución analítica completa (OFSAA y PBSMCS), adaptada para usted." />
             </ServiceBoxWrapper>
           </ServiceBoxRow>
         </div>

@@ -87,11 +87,11 @@ export default function Blog() {
       <div className="lightBg" style={{padding: '50px 0'}}>
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">¿Cómo satisfacen sus necesidades nuestras aplicaciones OFSAA?</h1>
+            <h1 className="font40 extraBold">¿Cómo nuestras soluciones analíticas satisfacen las necesidades de su negocio?</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+              {/* Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
               <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+              labore et dolore magna aliquyam erat, sed diam voluptua. */}
             </p>
           </HeaderInfo>
           <TestimonialSlider />

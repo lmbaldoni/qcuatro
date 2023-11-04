@@ -34,39 +34,39 @@ export default function TestimonialSlider() {
         <LogoWrapper className="flexCenter">
           <TestimonialBox
             text="Utilice las funcionalidades estándar de OFSAA, gestione todos los supuestos definidos en OFSAA sin conocimientos de TI."
-            author="Ralph Waldo Emerson"
+            // author="Ralph Waldo Emerson"
           />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="Permitirle tener un flujo visual de sus procesos OFSAA."
-            author="Ralph Waldo Emerson"
+            text="Obtenga una visión de los factores que impulsan la rentabilidad en toda la empresa, el rendimiento ajustado al riesgo y el rendimiento en múltiples dimensiones empresariales, así como la rentabilidad a nivel de operación para habilitar la rentabilidad por cliente, segmento, producto y canal."
+            // author="Ralph Waldo Emerson"
           />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="Permita a los usuarios de TI administrar lotes OFSAA, ver su estado, verificar registros e incluso programar la ejecución de los lotes."
-            author="Ralph Waldo Emerson"
+            text="Aprove un proceso de medición del rendimiento sostenible, repetible e integrado para impulsar el rendimiento ajustado al riesgo en toda la empresa y obtener así una visión integrada de Riesgos y Finanzas."
+            // author="Ralph Waldo Emerson"
           />
         </LogoWrapper>
-        <LogoWrapper className="flexCenter">
+        {/* <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
-          />
-        </LogoWrapper>
-        <LogoWrapper className="flexCenter">
-          <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
+            text="Integre completamente los requerimientos analíticos de Riesgos y Finanzas integrando sus soluciones analíticas en un modelo de industria que comparte la misma plataforma y motor de flujos de datos, así como reglas de negocio y plataforma analítica."
+            // author="Ralph Waldo Emerson"
           />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
             text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
+            // author="Ralph Waldo Emerson"
           />
         </LogoWrapper>
+        <LogoWrapper className="flexCenter">
+          <TestimonialBox
+            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
+            // author="Ralph Waldo Emerson"
+          />
+        </LogoWrapper> */}
       </Slider>
     </div>
   );

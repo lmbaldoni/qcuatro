@@ -12,7 +12,7 @@ export default function Pricing() {
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Ventajas principales</h1>
+            <h1 className="font40 extraBold">Principales Ventajas</h1>
             {/* <p className="font13">
               Lorem ipadsdasum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
               <br />
@@ -25,8 +25,8 @@ export default function Pricing() {
               <PricingTable
                 icon="roller"
                 price=""
-                title="Expertos en OFSAA"
-                text="Trabaje con un equipo de expertos de OFSAA que organizarán una transferencia de conocimientos detallada para usted."
+                title="Expertos en la industria"
+                text="Trabaje con un equipo de expertos que organizarán una transferencia de conocimientos detallada para usted."
                 
               />
               
@@ -36,7 +36,7 @@ export default function Pricing() {
                 icon="faBottleDroplet"
                 price=""
                 title="Soluciones sin código"
-                text="Implementar OFSAA utilizando funcionalidades estándar, lo que permite a los usuarios comerciales mantener los supuestos de OFSAA sin necesidad de codificación de TI (o limitada)."
+                text="Implemente OFSAA y PBSMCS utilizando funcionalidades estándar, lo que permite a los usuarios comerciales mantener los supuestos de OFSAA sin necesidad de codificación de TI (o limitada), simplificando futuros procesos de actualización."
               />
             </TableBox>
             <TableBox>
@@ -72,7 +72,7 @@ export default function Pricing() {
               <PricingTable
                 icon="monitor"
                 price=""
-                title="Implementar"
+                title="Metodología"
                 text="Implementar varios modelos en los que los costos puedan reconocerse en varios niveles dentro del Banco (productos, clientes, etc.), utilizando un enfoque top/down, bottom/up o mixto."
               />
             </TableBox>

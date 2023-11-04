@@ -33,40 +33,40 @@ export default function TestimonialSlider_linea2() {
       <Slider {...settings}>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="Utilice las funcionalidades estándar de OFSAA, gestione todos los supuestos definidos en OFSAA sin conocimientos de TI."
-            author="Ralph Waldo Emerson"
+            text="Rompa los silos de información y respalde decisiones empresariales complejas sobre clientes, productos, políticas y procesos empresariales."
+            // author="Ralph Waldo Emerson"
           />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="Permitirle tener un flujo visual de sus procesos OFSAA."
-            author="Ralph Waldo Emerson"
+            text="Logre la aceptación en toda la empresa con un marco sostenible y coherente que sea fácil de implantar y mantener."
+           // author="Ralph Waldo Emerson"
           />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="Permita a los usuarios de TI administrar lotes OFSAA, ver su estado, verificar registros e incluso programar la ejecución de los lotes."
-            author="Ralph Waldo Emerson"
+            text="Afronte los retos de rentabilidad en el dinámico entorno empresarial actual, con la volatilidad inherente, el aumento de los tipos de interés y los cambios en el comportamiento de los clientes."
+            // author="Ralph Waldo Emerson"
+          />
+        </LogoWrapper>
+        {/* <LogoWrapper className="flexCenter">
+          <TestimonialBox
+            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
+           //  author="Ralph Waldo Emerson"
           />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
             text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
+           //  author="Ralph Waldo Emerson"
           />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
             text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
+           //  author="Ralph Waldo Emerson"
           />
-        </LogoWrapper>
-        <LogoWrapper className="flexCenter">
-          <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
-          />
-        </LogoWrapper>
+        </LogoWrapper> */}
       </Slider>
     </div>
   );
