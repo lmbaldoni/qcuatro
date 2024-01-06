@@ -36,7 +36,7 @@ export default function Services() {
           <ServiceBoxRow className="flex">
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="roller"
+                icon="monitor"
                 title="Precios de Transferencia"
                 subtitle="Implementación de una solución que obtiene las tasas y precios de transferencia, así como sus ajustes adicionales, el costo de la opcionalidad embebida, y el costo de las reupturas comerciales. Todas estas medidas a nivel de contrato, para integrarlas en el modelo de rentabilidad."
               />
@@ -50,14 +50,14 @@ export default function Services() {
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="browser"
+                icon="monitor"
                 title="Gestión de Activos y Pasivos"
                 subtitle="Implementación de una solución de Gestión de Activos y Pasivos (ALM), para abordar las perspectivas de negocio y regulatorias de las proyecciones del balance, el estado de resultados e informes de brechas para el cálculo del riesgo de tasa en la cartera bancaria (IRRBB)."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox 
-                icon="printer" 
+                icon="monitor" 
                 title="Implementación de Planeación del Balance" 
                 subtitle="Integre las proyecciones de las cuentas del balance y del estado de resultados en la planeación. Obtenga escenarios de proyección para la gestión del rendimiento y la elaboración de los presupuestos financieros integrando las metodologías de precios de transferencia existentes en la solución de FTP." />
             </ServiceBoxWrapper>
@@ -65,7 +65,7 @@ export default function Services() {
           <ServiceBoxRow className="flex">
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="roller"
+                icon="monitor"
                 title="Buenas prácticas"
                 subtitle="Orientación y experiencia en la definición de supuestos de rentabilidad, Precios de Transferencia (FTP), Rentabilidad (PFT), Gestión de Activos y Pasivos (ALM) y Planeación del Balance (BSP) utilizando las mejores prácticas de la industria."
               />
@@ -79,14 +79,14 @@ export default function Services() {
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="BsPersonFillGear"
+                icon="monitor"
                 title="Automatizaciones"
                 subtitle="Utilización de mejores prácticas para el mantenimiento y evolución de su solución analítica durante la operación de Producción."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox 
-                icon="printer" 
+                icon="monitor" 
                 title="Capacitación a usuarios" 
                 subtitle="Obtenga una guía de operación de su solución analítica completa (OFSAA y PBSMCS), adaptada para usted." />
             </ServiceBoxWrapper>

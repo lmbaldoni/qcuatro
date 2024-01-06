@@ -23,7 +23,7 @@ export default function Pricing() {
             <TableBox>
             <FontAwesomeIcon> icon={faBell}</FontAwesomeIcon>
               <PricingTable
-                icon="roller"
+                icon="monitor"
                 price=""
                 title="Expertos en la industria"
                 text="Trabaje con un equipo de expertos que organizarán una transferencia de conocimientos detallada para usted."
@@ -33,7 +33,7 @@ export default function Pricing() {
             </TableBox>
             <TableBox>
               <PricingTable
-                icon="faBottleDroplet"
+                icon="monitor"
                 price=""
                 title="Soluciones sin código"
                 text="Implemente OFSAA y PBSMCS utilizando funcionalidades estándar, lo que permite a los usuarios comerciales mantener los supuestos de OFSAA sin necesidad de codificación de TI (o limitada), simplificando futuros procesos de actualización."
@@ -41,7 +41,7 @@ export default function Pricing() {
             </TableBox>
             <TableBox>
               <PricingTable
-                icon="browser"
+                icon="monitor"
                 price=""
                 title="Mejores decisiones"
                 text="Mejore las decisiones de gestión determinando las tasas de precios de transferencia utilizando un enfoque de vencimiento igualado."
@@ -54,7 +54,7 @@ export default function Pricing() {
           <TablesWrapper className="flexSpaceNull">
           <TableBox>
               <PricingTable
-                icon="perfaImagePortrait"
+                icon="monitor"
                 price=""
                 title="Ganancia"
                 text="Comprender de dónde provienen las ganancias al difundir los ingresos netos por intereses por costo de los fondos/valor de las fuentes."
